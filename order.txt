@@ -1,0 +1,32 @@
+﻿<div class="order" id="rec_form">
+
+<form name="test" method="post" action="">
+
+<p align="right" style="font-family:'century gothic'; font-size:17px; color:#326235;"><b>Ваши контактные данные</b></p>
+
+<table class="order_class">
+ <tr>
+ 	<td align="right">ФИО клиента</td>
+    <td><input type="text" size="30" id="name" value="ФИО" onfocus="if (this.value == 'ФИО') {this.value = ''; }" onblur="if (this.value == '') {this.value = 'ФИО';"/></td>
+ </tr>
+ <tr>
+  	 <td align="right">Контактный номер</td>
+	 <td><input type="text" size="30" id="phone" value='+38 (555) 11 22' onfocus="if (this.value == '+38 (555) 11 22') {this.value = ''; }" onblur="if (this.value == '') {this.value = '+38 (555) 11 22';"/> </td>
+ </tr>
+ <tr>
+   	<td align="right">Адрес электронной почты</td>
+	<td><input type="text" size="30" id="email" value="moebius@gmail.com" onfocus="if (this.value == 'moebius@gmail.com') {this.value = ''; this.style.color = '#000';}" onblur="if (this.value == '') {this.value = 'moebius@gmail.com';"/> </td>
+ <tr>
+    <td align="right">Адрес</td>
+	<td><input type="text" size="30" id="address" value="Адрес клиента" onfocus="if (this.value == 'Адрес клиента') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Адрес клиента';"/> </td>
+ </tr>
+</table>
+
+<table>
+<tr>
+<td width="225px" align="center" style="padding-top:15px"><a href="#" class="button11 small green rounded" type="button" id="send_order" onclick="transmit_data();">Оформить заказ</a>
+</form></td>
+<td width="225px" align="center" style="padding-top:15px"><a href="#" onclick="$('.order').hide(); $('#basket_win').show(); return false" class="button11 small orange rounded">Перейти в корзину</a></td>
+</tr>
+</table>
+</div>

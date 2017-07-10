@@ -1,0 +1,98 @@
+.horizontal-centering { position: relative; height: 100%;}
+.horizontal-centering > * > * { float: left;  position: relative; left:0; margin: 0; padding: 0; }
+.horizontal-centering > * > * > * { float: left; position: relative; right: 0;  }
+
+ul.dropdown {
+ font: normal 12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+ text-transform: uppercase;
+ text-align: center;
+ vertical-align: middle;
+ width: 1000px;
+ height: 100%;
+
+}
+
+	ul.dropdown li {
+	 padding: 7px 0;
+	 background-color: #0d0604;
+	 color: #fff;
+	 line-height: normal;
+	 width: 25%;
+	 position: relative;
+	 height: 100%;
+	  vertical-align:middle;
+	}
+
+	ul.dropdown a:link,
+	ul.dropdown a:visited { color: #fff; text-decoration: none; }
+	ul.dropdown a:hover { color: #7ab2ff; text-decoration: none; background-color: #fff; }
+	ul.dropdown a:active { color: #fff; }
+
+	/* -- level mark -- */
+
+	ul.dropdown ul {
+	 width: 170px;
+	 background-color: #0d0604;
+	 color: #fff;
+	 font-size: 11px;
+	 text-transform: none;
+	 filter: alpha(opacity=90);
+	 -moz-opacity: .9;
+	 KhtmlOpacity: .9;
+	 opacity: .9;
+	}
+
+		ul.dropdown ul li {
+		 background-color: transparent;
+		 color: #000;
+		 filter: none;
+		 text-align: left;
+		}
+
+		ul.dropdown ul li.hover,
+		ul.dropdown ul li:hover {
+		 background-color: transparent;
+		}
+
+		ul.dropdown ul a:link,
+		ul.dropdown ul a:visited { color: #fff; }
+		ul.dropdown ul a:hover { color: #7ab2ff; text-decoration: none; background-color: #fff; }
+		ul.dropdown ul a:active { color: #fff; }
+
+
+/* -- Base style extension -- */
+
+ul.dropdown li a {
+ display: block;
+ vertical-align: middle;
+ height: 100%;
+}
+
+
+/* -- Base style override -- */
+
+ul.dropdown li {
+ padding: 0;
+}
+
+/* -- Custom -- */
+
+ul.dropdown ul a {
+ padding: 4px 5px 4px 14px;
+ width: 151px; /* Especially for IE */
+}
+
+/* -- Drop-down open -- */
+
+ul.dropdown li a.dir { position: relative; height: 67.5%; width: 100%;  padding-top: 13px}
+
+ul.dropdown li:hover > a.dir {
+ background-color: #fff;
+ color: #7ab2ff;
+}
+
+ul.dropdown ul li:hover > a.dir {
+ background-color: #fff;
+ color: #7ab2ff;
+}
+

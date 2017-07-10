@@ -1,0 +1,16 @@
+<div class="order999" id="thanks">
+ 
+<table align="center" border=0 style="margin-top:57px;">
+<tr>
+
+<td width="225px" align="center" valign="middle">
+<script>
+document.write("<font face='Lobster' size='5' color=#458B00>"+getCookie_without_rw("thanks")+",<br>благодарим за<br>покупку!</font>");
+</script>
+</td>
+
+<td align="right"><img src="/Appliance/src/Storage/kitty.jpg" width="200px"></td>
+
+</tr>
+</table>
+</div>

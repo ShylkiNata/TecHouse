@@ -1,0 +1,94 @@
+﻿<div class="logo-div logo">
+<table border=0  width="1000px">
+<TR>
+  <td width="325px" > 
+        <a href="online_shop.php"><img src="/Appliance/src/Storage/logo.png" width="315px" align="right"></a>
+  </td>
+
+  <td width="370px" >
+	<div align="center" style="margin-top:10px">
+	<img src="/Appliance/src/Storage/time.png" width="22px">
+	пн-сб: 8:00-19:00
+	<br>вс: выходной
+	</div>
+
+	<!--поиск--!>
+
+	<div>
+	<center>
+	<?php $txtFind=0;?>
+	<form action="1" method=post id="searchbox" style="margin-top:15px" >
+	  <input id="search" type="text" value="Введите наименование товара" onfocus="{this.value = '';}" onblur="if (this.value == '') {this.value = 'Введите наименование товара';}" />
+	  <a href="#" id="submit" onclick=" var adres=document.getElementById('search').value; var adress='find.php?search='+adres+'&page=1'; window.location.href = adress;" >Найти</a>
+	</form>
+	</center>
+ 	</div>
+
+    <td width="120px" align="center">
+	<div>  <a href="#" onclick="showDiv(); return false">
+               <img src="/Appliance/src/Storage/green_box.png" title="Нажмите, чтобы увидеть содержимое корзины" width="70px">  
+               </a>
+	</div>
+
+        <div style="position:relative; margin-top:5px;">  <font face="'Trebuchet MS', Arial, Helvetica, sans-serif" size="2px" vertical-align="middle">   
+	<span id="count">
+	<script> if(count==0) $("#count").html("Ваша корзина пуста");
+		 else $("#count").html("Предметов в корзине: "+"<font color=#4169E1><b>"+count+"</b></font>");
+        </script>
+	</span></font></div>
+  </td>
+
+  <td width="175px" align="center">
+       <div>
+	<img src="/Appliance/src/Storage/call.png" width="20px">
+ 	<font face="'Trebuchet MS', Arial, Helvetica, sans-serif" size="2px">
+	<b>&ensp;(061) 270-45-41</b>
+	<br>&nbsp;&nbsp;&emsp;(050) 155-96-87   
+	<br>&nbsp;&emsp;(093) 165-48-25    
+	</font>
+	</div>
+  </td>
+
+</TR>
+</table>
+</div>
+
+<div>
+  <div class="menu-div">
+   		<div class="horizontal-centering">
+
+			<ul class="dropdown dropdown-horizontal">
+				<li><a href="#" class="dir">Техника для дома</a>
+					<ul>
+						<li><a href="#" onclick="window.location.href = 'block.php?goods_category=washers&page=1&minprice=&maxprice=';">Стиральные машины</a></li>
+						<li><a href="#" onclick="window.location.href = 'block.php?goods_category=iron&page=1&minprice=&maxprice=';">Утюги</a></li>
+						<li><a href="#" onclick="window.location.href = 'block.php?goods_category=fen&page=1&minprice=&maxprice=';">Фены</a></li>
+						<li><a href="#" onclick="window.location.href = 'block.php?goods_category=tv&page=1&minprice=&maxprice=';">Телевизоры</a></li>
+					</ul>
+				</li>
+				<li><a href="#" class="dir">Техника для кухни</a>
+					<ul>
+						<li><a href="#" onclick="window.location.href = 'block.php?goods_category=refrigerator&page=1&minprice=&maxprice=';">Холодильники</a></li>
+						<li><a href="#" onclick="window.location.href = 'block.php?goods_category=microwave&page=1&minprice=&maxprice=';">Микроволновые печи</a></li>
+					</ul>
+				</li>
+				<li><a href="#" class="dir">Климатическая техника</a>
+					<ul>
+						<li><a href="#" onclick="window.location.href = 'block.php?goods_category=fan_heater&page=1&minprice=&maxprice=';">Тепловентиляторы</a></li>
+						<li><a href="#" onclick="window.location.href = 'block.php?goods_category=oil_heater&page=1&minprice=&maxprice=';">Масляные обогреватели</a></li>
+					</ul>
+				</li>
+				
+				<li><a href="#" onclick="window.location.href = 'block.php?goods_category=phones&page=1&minprice=&maxprice=';" class="dir">Телефония</a></li>
+			</ul>
+		</div>
+ 
+  </div>
+</div>
+  <div class="adv_div" id="rotator">
+    <ul style="padding: 0;">
+    <li class="show"><img src="/Appliance/src/Storage/banner1.jpg" width="1000px" height="230px"  alt="pic1" /></li>
+    <li>			 <img src="/Appliance/src/Storage/banner2.jpg" width="1000px" height="230px"  alt="pic2" /></li>
+    <li>			 <img src="/Appliance/src/Storage/banner3.jpg" width="1000px" height="230px"  alt="pic3" /></li>
+   </ul>
+  </div>

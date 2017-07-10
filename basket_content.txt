@@ -1,0 +1,34 @@
+﻿<div class="basket" id="basket_win">
+	<div style="text-align:left; margin:15px;"><font face='Lobster' size='5' color=#458B00>Ваша корзина</font>
+ 	<a href="#" onclick="hideDiv(); return false;"><img src="/Appliance/src/Storage/close.png" width="20px" align="right" title="Закрыть"></a>
+	</div>
+
+	<div style="height:59%; margin-top:5%; overflow: auto; ">
+	  <table border=0 id="basket_table" style="background:#E1E1E1; margin-left:3%; width:97% ">
+		<tr align="center"">
+		   <th width="5%"></th>
+		   <th width="5%"><font face="century gothic" size="2"> № </font></th>
+		   <th width="8%"><font face="century gothic" size="2"> Код </font></th>
+		   <th width="51%"><font face="century gothic" size="2"> Наименование </font></th>
+		   <th width="15%"><font face="century gothic" size="2"> Кол-во </font></th>
+		   <th width="13%"><font face="century gothic" size="2"> Цена </font></th>
+		</tr>
+
+	  </table></center>
+	</div>
+
+	<div style="margin:2%; left:2%; padding-bottom:3%; position:relative; font-family: 'century gothic'; font-size:13px">
+	Общая стоимость покупки: <font color="red">  <span id="buy"><script>document.write(getCookie("Final_cost")+" ");</script><span id="buy">  </font></span>грн
+	</div>	
+
+	<div style="margin:2%; bottom:5%; left:2%; position:relative;"><center>
+	  <table>
+		<tr align="center">
+		   <td> <a href="#" onclick="to_order();return false"class="button9" style="color:#F64C68">оформить заказ</a> </td>
+		   <td> <a href="#" onclick="hideDiv(); return false;" class="button9" style="color:#4C72F6">вернуться в каталог</a> </td>
+		   <td> <a href="#" onclick="clear_cook(); return false;" class="button9" style="color:#429489">очистить корзину</a> </td>
+		</tr>
+	  </table></center>
+	</div>
+
+  </div>

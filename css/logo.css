@@ -1,0 +1,34 @@
+.logo {
+
+
+background: rgba(255,255,255,1);
+
+background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 47%, rgba(229,239,251,1) 100%);
+
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(255,255,255,1)), color-stop(100%, rgba(229,239,251,1)));
+
+background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 47%, rgba(229,239,251,1) 100%);
+
+background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 47%, rgba(229,239,251,1) 100%);
+
+background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 47%, rgba(229,239,251,1) 100%);
+
+background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 47%, rgba(229,239,251,1) 100%);
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5effb', GradientType=1 );
+background: rgba(164,179,87,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(164,179,87,1) 0%, rgba(117,137,12,0.34) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(164,179,87,1)), color-stop(100%, rgba(117,137,12,0.34)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(164,179,87,1) 0%, rgba(117,137,12,0.34) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(164,179,87,1) 0%, rgba(117,137,12,0.34) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(164,179,87,1) 0%, rgba(117,137,12,0.34) 100%);
+background: radial-gradient(ellipse at center, rgba(164,179,87,1) 0%, rgba(117,137,12,0.34) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4b357', endColorstr='#75890c', GradientType=1 );
+
+
+
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+}        
